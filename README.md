@@ -1,41 +1,117 @@
-# Expense-Tracker-Mern
-A fully-featured Expense-Tracker WebApp , built with the MERN stack.
+# 💰 Expense Tracker - MERN Stack
 
+A full-stack Expense Tracker web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The application helps users track income, expenses, and spending habits through an intuitive dashboard and analytics.
 
-### Backend 
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /> 
-### Front-end
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-### Database 
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+## 🚀 Features
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/960fe4d9-fc14-49af-abcd-82cd94587293/deploy-status?branch=dev)](https://app.netlify.com/sites/track-yur-expense/deploys)
+* 🔐 User Authentication (Login & Signup)
+* 💰 Add, Edit, and Delete Transactions
+* 📊 Interactive Dashboard & Analytics
+* 📈 Income vs Expense Visualization
+* 🏷️ Category-wise Expense Tracking
+* 📅 Transaction History Management
+* 🔍 Filter Transactions by Date & Category
+* 🌙 Dark Mode Support
+* 📱 Fully Responsive Design
 
-### Installation
-1) Clone this repository  
+## 🛠️ Tech Stack
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* JWT Authentication
+* Bcrypt.js
+
+### Frontend
+
+* React.js
+* Tailwind CSS
+* React Router DOM
+* Axios
+* React Hot Toast
+
+### Database
+
+* MongoDB Atlas
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/ashishverma011/Expense-Tracker.git
 ```
-git clone https://github.com/ihtasham42/social-media-app.git
-```
-2) Install dependencies  
-```
-cd Expense-Tracker_Mern  
-cd frontend
+
+### Backend Setup
+
+```bash
+cd backend
 npm install
-cd..
-cd client
-npm install
-```
-3) Configure environment variables in your new .env file. To acquire your MONGO_URI, create a cluster for free over at https://www.mongodb.com/.
-```
-MONGO_URI=<YOUR_MONGO_URI> 
-```
-4) Run the server
-```
-npm run server
-```
-5) Start a new terminal and run react's development server
-```
-cd social-media-app
-cd frontend
 npm start
 ```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside the backend folder:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
+```
+
+Create a `.env` file inside the frontend folder:
+
+```env
+VITE_API_URL=http://localhost:5000
+```
+
+## 📊 Dashboard Analytics
+
+* Total Income
+* Total Expenses
+* Available Balance
+* Category-wise Expense Breakdown
+* Monthly Spending Trends
+* Interactive Charts
+
+## 📂 Project Structure
+
+```text
+Expense-Tracker/
+│
+├── backend/
+│   ├── controller/
+│   ├── router/
+│   ├── db/
+│   └── utils/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── assets/
+│
+└── README.md
+```
+
+## 📌 GitHub Repository
+
+https://github.com/ashishverma011/Expense-Tracker
+
+## 👨‍💻 Author
+
+Ashish Verma
+
+GitHub: https://github.com/ashishverma011
+
